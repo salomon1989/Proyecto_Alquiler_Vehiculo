@@ -1,1 +1,16 @@
-
+server:
+   port: ${PORT:9063}
+message: Configuracion de Mantenimiento en el servidor levantado!
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    password: 
+    url: jdbc:mysql://${MYSQL_HOST:localhost}:3306/dbcrudcloud
+    username: root
+  jpa:
+    hibernate:
+      ddl-auto: update
+      database-platform: org.hibernate.dialect.MySQLDialect
+  cloud:
+    config:
+      uri: http://localhost:8080
