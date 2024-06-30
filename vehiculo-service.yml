@@ -1,5 +1,5 @@
 server:
-   port: ${PORT:9063}
+   port: ${PORT:9069}
 message: Configuracion de Vehiculo en el servidor levantado!
 spring:
   datasource:
