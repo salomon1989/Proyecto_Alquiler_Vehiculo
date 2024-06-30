@@ -5,7 +5,7 @@ spring:
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
     password: 
-    url: jdbc:mysql://${MYSQL_HOST:localhost}:3306/dbcrudcloud
+    url: jdbc:mysql://${MYSQL_HOST:localhost}:3306/dbreserva_vehiculo
     username: root
   jpa:
     hibernate:
