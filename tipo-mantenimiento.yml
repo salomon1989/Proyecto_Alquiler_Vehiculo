@@ -1,5 +1,5 @@
 server:
-   port: ${PORT:9063}
+   port: ${PORT:9067}
 message: Configuracion de Tipo de mantenimiento en el servidor levantado!
 spring:
   datasource:
