@@ -11,7 +11,6 @@ spring:
     hibernate:
       ddl-auto: update
       database-platform: org.hibernate.dialect.MySQLDialect
-      generate-ddl=true
-  cloud:
+ cloud:
     config:
       uri: http://localhost:8080
