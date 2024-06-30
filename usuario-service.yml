@@ -12,5 +12,5 @@ spring:
       ddl-auto: update
       database-platform: org.hibernate.dialect.MySQLDialect
    cloud:
-      config:
-        uri: http://localhost:8080
+     config:
+       uri: http://localhost:8080
