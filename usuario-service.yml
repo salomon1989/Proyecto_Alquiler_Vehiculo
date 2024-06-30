@@ -1,5 +1,5 @@
 server:
-   port: ${PORT:9068}
+   port: ${PORT:8068}
 message: Configuracion de Usuario en el servidor levantado!
 spring:
   datasource:
