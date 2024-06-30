@@ -1,5 +1,5 @@
 server:
-   port: ${PORT:9071}
+   port: ${PORT:8071}
 message: Configuracion de Marca de Vehiculo en el servidor levantado!
 spring:
   datasource:
