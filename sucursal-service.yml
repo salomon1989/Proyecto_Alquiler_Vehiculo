@@ -1,5 +1,5 @@
 server:
-   port: ${PORT:9066}
+   port: ${PORT:8066}
 message: Configuracion de Sucursal en el servidor levantado!
 spring:
   datasource:
