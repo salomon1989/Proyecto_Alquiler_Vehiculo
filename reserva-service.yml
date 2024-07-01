@@ -1,12 +1,12 @@
 server:
    port: ${PORT:8064}
 message: Configuracion de Reserva en el servidor levantado!
-spring:
-  datasource:
-    driver-class-name: com.mysql.cj.jdbc.Driver
-    password: 
-    url: jdbc:mysql://${MYSQL_HOST:localhost}:3306/dbreserva_vehiculos
-    username: root
+  spring:
+    datasource:
+      driver-class-name: com.mysql.cj.jdbc.Driver
+      password: 
+      url: jdbc:mysql://${MYSQL_HOST:localhost}:3306/dbreserva_vehiculos
+      username: root
   jpa:
     hibernate:
       ddl-auto: update
