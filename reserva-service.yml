@@ -1,5 +1,11 @@
 server:
    port: ${PORT:8064}
+eureka:
+  client:
+     register-with-eureka: true
+#    fetch-registry: false
+     serviceurl:
+      defaultZone: http://localhost:8850/eureka/
 message: Configuracion de Reserva en el servidor levantado!
 spring:
     datasource:
