@@ -1,5 +1,11 @@
 server:
    port: ${PORT:8061}
+eureka:
+  client:
+     register-with-eureka: true
+#    fetch-registry: false
+     serviceurl:
+      defaultZone: http://localhost:8850/eureka/
 message: Configuracion de Mantenimiento en el servidor levantado!
 spring:
   datasource:
