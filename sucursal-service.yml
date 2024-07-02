@@ -1,11 +1,5 @@
 server:
-   port: ${PORT:9067}
-eureka:
-  client:
-     register-with-eureka: true
-#    fetch-registry: false
-     serviceurl:
-      defaultZone: http://localhost:8850/eureka/
+   port: ${PORT:8063}
 message: Configuracion de Sucursal en el servidor levantado!
 spring:
   datasource:
