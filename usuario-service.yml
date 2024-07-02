@@ -1,5 +1,5 @@
 server:
-   port: ${PORT:8068}
+   port: ${PORT:9070}
 eureka:
   client:
     register-with-eureka: true
