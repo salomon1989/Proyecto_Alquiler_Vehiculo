@@ -1,11 +1,5 @@
 server:
-   port: ${PORT:9063}
-eureka:
-  client:
-     register-with-eureka: true
-#    fetch-registry: false
-     serviceurl:
-      defaultZone: http://localhost:8850/eureka/
+   port: ${PORT:8070}
 message: Configuracion de Marca de Vehiculo en el servidor levantado!
 spring:
   datasource:
